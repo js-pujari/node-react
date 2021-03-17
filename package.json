@@ -1,0 +1,36 @@
+{
+  "name": "ind-js-server",
+  "version": "1.0.1",
+  "description": "Static server to serve your js built applications.",
+  "main": "cli.js",
+  "scripts": {
+    "ind-serve": "node cli.js"
+  },
+  "keywords": [
+    "js",
+    "server",
+    "js-server",
+    "static-js-server",
+    "js-build-server",
+    "ind-js-server",
+    "react-server",
+    "build-server",
+    "angular-server"
+  ],
+  "bin": {
+    "ind-serve": "./cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/js-pujari/node-react.git"
+  },
+  "author": "js-pujari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/js-pujari/node-react/issues"
+  },
+  "homepage": "https://github.com/js-pujari/node-react#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
